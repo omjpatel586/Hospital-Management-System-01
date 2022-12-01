@@ -1,0 +1,101 @@
+.part_1{
+    background: linear-gradient(#FBAB7E,#F7CE68);
+}
+.part_2{
+    background-color: #F0F4F7;
+}
+.part_1 h2{
+    margin: 0;
+}
+.contactbtn{
+    border: none;
+    padding: 15px 15px;
+    border-radius: 28px;
+    transition: .2s;
+    background-color: #85FFBD;
+    font-size: 20px;
+}
+.contactbtn:hover{
+    width: 75%;
+    background-color: #F7CE68;
+    text-align: left;
+    font-weight: bolder;
+}
+.b-image{
+    height: 100vh;  
+    background: url(../Images/Ashoka_Chakra.svg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.b-radius{
+    border-radius: 28px;
+}
+.text-size{
+    font-size: 20px;
+}
+.flex-wrap-wrap{
+    flex-wrap: wrap;
+}
+.m-design{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    flex-wrap: wrap;
+}
+.d-shape{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)
+}
+.t-shape{
+    height: 200px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    border: 2px solid black;
+}
+.l-box{
+    background: linear-gradient(orange,white,green);
+    display: none;
+}
+.display-none{
+    display: none;
+}
+.footer_section li a{
+    color: black;
+    transition: .2s;
+}
+.footer_section li:hover a{
+    color: #F7CE68;
+    padding-left: 4px;
+}
+.serv-hover{
+    transition: .2s;
+}
+.serv-hover:hover img{
+    transform: scale(1.2);
+}
+@media (min-width:568px) {
+    .fpart{
+        background: linear-gradient(#85FFBD,#FFFB7D);
+    }
+}
+@media (min-width:300px) {
+    .fs-custom{
+        font-size: 17px;
+    }
+    .w-xs-50{
+        width: 50%;
+    }
+}
+@media (min-width:768px) {
+    .fs-custom{
+        font-size: 25px;
+    }
+    .w-md-25{
+        width: 25%;
+    }
+}
+@media (min-width:992px) {
+    .fs-custom{
+        font-size: 30px;
+    }
+}

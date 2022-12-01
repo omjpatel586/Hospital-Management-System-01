@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+img{
+  width: 100%;
+}
+@media (min-width:300px) {
+  .part_2 .image{
+    width: 120px;
+  }
+}
+@media (min-width:992px) {
+  .part_2 .image{
+    width: 250px;
+  }
+}

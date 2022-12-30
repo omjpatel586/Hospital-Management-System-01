@@ -1,7 +1,8 @@
 import "./App.css";
 import "./css/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import React from "react";
 
 const data = [
   { "title": "OPD Module", "color": "#F44336", "content": "Content" },
@@ -29,16 +30,18 @@ const Modules = () => {
               </div>
             </Col>
             {
-              data.map((i) => {
+              data.map((i,j) => {
                 return (
-                  <Col className="py-2" xs={6} lg={3}>
-                    <div className="m-design d-flex mx-auto justify-content-center align-items-center" style={{backgroundColor:i.color}}>
-                      <div>
-                        <h1 className="h6 w-100 m-0">{i.title}</h1>
-                        <p className="m-0">{i.content}</p>
+                  <React.Fragment key={j}>
+                    <Col className="py-1" xs={12} lg={3}>
+                      <div className="m-design d-flex mx-auto justify-content-center align-items-center" style={{ backgroundColor: i.color }}>
+                        <div>
+                          <h1 className="h6 w-100 m-0">{i.title}</h1>
+                          <p className="m-0">{i.content}</p>
+                        </div>
                       </div>
-                    </div>
-                  </Col>
+                    </Col>
+                  </React.Fragment>
                 )
               })
             }

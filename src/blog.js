@@ -1,7 +1,6 @@
-import { Container, Row, Col, Card, Button, Breadcrumb } from "react-bootstrap";
-// import { Compblog } from "./Compblog";
+import { Container, Row, Col, Card, Breadcrumb } from "react-bootstrap";
 
-var blogs = [
+const blogs = [
     { "image": require("./Images/1.png"), "prod_name": "Lastest Digital X-Ray Machine" },
     { "image": require("./Images/2.jpg"), "prod_name": "Lastest Digital X-Ray Machine" },
     { "image": require("./Images/2.jpg"), "prod_name": "Lastest Digital X-Ray Machine" },

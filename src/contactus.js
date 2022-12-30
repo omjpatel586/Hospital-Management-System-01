@@ -1,7 +1,7 @@
 import "./css/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Form, Breadcrumb } from "react-bootstrap";
-import React, { useState } from "react";
+import React from "react";
 
 const ContactUs = () => {
   return (

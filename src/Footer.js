@@ -149,10 +149,10 @@ const Footer = () => {
                         </Col>
                         <Col className="text-center">
                             <p className="fw-bolder fs-5 text-white">Doctor's Short Information</p>
-                            <p className="text-dark fs-6">
+                            <div className="text-dark fs-6">
                                 <p className="fw-bolder fs-5">Doctor's Name :-</p> Dr.Amit Jasoliya
                                 MS Ortho Surgeon
-                            </p>
+                            </div>
                             <p className="text-dark fs-6">
                                 Dr.Tushar  Kakadiya
                                 PHC & Speech Specialist

@@ -123,18 +123,6 @@ function MyVerticallyCenteredModal(props) {
 }
 
 function Login(props) {
-  const [validated, setValidated] = useState(false);
-
-  const handleSubmit = (event) => {
-    const form = event.currentTarget;
-    if (form.checkValidity() === false) {
-      event.preventDefault();
-      event.stopPropagation();
-    }
-
-    setValidated(true);
-  };
-
   return (
     <Modal
       {...props}
@@ -231,7 +219,7 @@ const Header = () => {
                     <div className="image">
                       <img
                         src={require("./Images/logo.jpg")}
-                        className="w-lg-100"
+                        className="w-lg-100" alt="Not Found"
                       ></img> 
                     </div>
                   </Col>

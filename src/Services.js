@@ -2,6 +2,7 @@ import "./App.css";
 import "./css/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Breadcrumb } from "react-bootstrap";
+import React from "react";
 
 const servorth = [
   {
@@ -104,16 +105,18 @@ const Services = () => {
             <Col>
               <div className="p-2">
                 <Row className="justify-content-center" xs={1} lg={2} xl={3}>
-                  {servorth.map((i) => {
+                  {servorth.map((i,j) => {
                     return (
-                      <Col sm={6} className="py-4 shadow">
-                        <div>
-                          <div className="d-flex justify-content-center serv-hover">
-                            <img src={i.image} className="b-radius w-50"></img>
+                      <React.Fragment key={j}>
+                        <Col sm={6} className="py-4 shadow">
+                          <div>
+                            <div className="d-flex justify-content-center serv-hover">
+                              <img src={i.image} className="b-radius w-50" alt="Not Found"></img>
+                            </div>
+                            <h1 className="h6 m-0 text-center">{i.content}</h1>
                           </div>
-                          <h1 className="h6 m-0 text-center">{i.content}</h1>
-                        </div>
-                      </Col>
+                        </Col>
+                      </React.Fragment>
                     );
                   })}
                 </Row>
@@ -129,16 +132,18 @@ const Services = () => {
             <Col>
               <div className="p-2">
                 <Row className="justify-content-center" xs={1} lg={2} xl={3}>
-                  {servphc.map((i) => {
+                  {servphc.map((i, j) => {
                     return (
-                      <Col sm={6} className="py-4 shadow">
-                        <div>
-                          <div className="d-flex justify-content-center serv-hover">
-                            <img src={i.image} className="b-radius w-50"></img>
+                      <React.Fragment key={j}>
+                        <Col sm={6} className="py-4 shadow">
+                          <div>
+                            <div className="d-flex justify-content-center serv-hover">
+                              <img src={i.image} className="b-radius w-50" alt="Not Found"></img>
+                            </div>
+                            <h1 className="h6 m-0 text-center">{i.content}</h1>
                           </div>
-                          <h1 className="h6 m-0 text-center">{i.content}</h1>
-                        </div>
-                      </Col>
+                        </Col>
+                      </React.Fragment>
                     );
                   })}
                 </Row>
@@ -157,17 +162,19 @@ const Services = () => {
               <Col>
                 <div className="p-2">
                   <Row className="justify-content-center" xs={1} lg={2} xl={3}>
-                    {servphyc.map((i) => {
+                    {servphyc.map((i, j) => {
                       return (
-                        <Col sm={6} className="py-4 shadow">
-                          <div className="d-flex justify-content-center serv-hover">
-                            <img
-                              src={i.image}
-                              className="w-50"
-                            ></img>
-                          </div>
-                          <h1 className="h6 m-0 text-center">{i.content}</h1>
-                        </Col>
+                        <React.Fragment key={j}>
+                          <Col sm={6} className="py-4 shadow">
+                            <div className="d-flex justify-content-center serv-hover">
+                              <img
+                                src={i.image}
+                                className="w-50"
+                                alt="Not Found"></img>
+                            </div>
+                            <h1 className="h6 m-0 text-center">{i.content}</h1>
+                          </Col>
+                        </React.Fragment>
                       );
                     })}
                   </Row>

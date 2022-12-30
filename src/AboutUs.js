@@ -34,8 +34,8 @@ const AboutUs = () => {
           <Col>
             <OwlCarousel className="owl-theme shadow" dots items={1}>
               <div className="item">
-                <div className="t-shape w-xs-50 w-md-25  mx-auto">
-                  <img src={require("./Images/doctor_info_1.jpeg")}></img>
+                <div className="w-xs-50 w-md-25  mx-auto">
+                  <img src={require("./Images/doctor_info_1.jpeg")} alt="Not Found"></img>
                 </div>
                 <div className="mx-auto">
                   <h1 className="h2 m-0 text-center">Dr. Amit Jasoliya</h1>
@@ -46,8 +46,8 @@ const AboutUs = () => {
                 </div>
               </div>
               <div className="item">
-                <div className="t-shape w-xs-50 w-md-25 mx-auto">
-                  <img src={require("./Images/doctor_info_1.jpg")}></img>
+                <div className="w-xs-50 w-md-25 mx-auto">
+                  <img src={require("./Images/doctor_info_1.jpg")} alt="Not Found"></img>
                 </div>
                 <div className="mx-auto">
                   <h1 className="h2 m-0 text-center">Dr. Tushar Kakadiya</h1>

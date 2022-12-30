@@ -17,7 +17,7 @@ const Location = () => {
                         <Col>
                             <div className="position-relative">
                                 <div className="py-5">
-                                    <img src={require("./Images/location.PNG")}></img>
+                                    <img src={require("./Images/location.PNG")} alt="Not Found"></img>
                                 </div>
                             </div>
                         </Col>

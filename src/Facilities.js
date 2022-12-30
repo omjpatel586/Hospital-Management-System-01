@@ -36,19 +36,19 @@ const Facilities = () => {
                             <Row className="justify-content-between">
                                 <Col xs={12} className="py-4 shadow">
                                     <div className="d-flex justify-content-between align-items-center">
-                                        <img src={require("./Images/f1.jpg")} className="b-radius w-25"></img>
+                                        <img src={require("./Images/f1.jpg")} className="b-radius w-25" alt="Not Found"></img>
                                         <h1 className="h6 m-0 text-center">Content</h1>
                                     </div>
                                 </Col>
                                 <Col xs={12} className="py-4 shadow">
                                     <div className="d-flex justify-content-between align-items-center">
                                         <h1 className="h6 m-0 text-center">Content</h1>
-                                        <img src={require("./Images/f2.jpg")} className="b-radius w-25"></img>
+                                        <img src={require("./Images/f2.jpg")} className="b-radius w-25" alt="Not Found"></img>
                                     </div>
                                 </Col>
                                 <Col xs={12} className="py-4 shadow">
                                     <div className="d-flex justify-content-between align-items-center">
-                                        <img src={require("./Images/f3.jpg")} className="b-radius w-25"></img>
+                                        <img src={require("./Images/f3.jpg")} className="b-radius w-25" alt="Not Found"></img>
                                         <h1 className="h6 m-0 text-center">Content</h1>
                                     </div>
                                 </Col>
@@ -61,19 +61,19 @@ const Facilities = () => {
                             <Row className="justify-content-center">
                                 <Col xs={12} className="py-4 shadow">
                                     <div className="d-flex justify-content-between align-items-center">
-                                        <img src={require("./Images/f4.jpg")} className="b-radius w-25"></img>
+                                        <img src={require("./Images/f4.jpg")} className="b-radius w-25" alt="Not Found"></img>
                                         <h1 className="h6 m-0 text-center">Content</h1>
                                     </div>
                                 </Col>
                                 <Col xs={12} className="py-4 shadow">
                                     <div className="d-flex justify-content-between align-items-center">
                                         <h1 className="h6 m-0 text-center">Content</h1>
-                                        <img src={require("./Images/f5.jpg")} className="b-radius w-25"></img>
+                                        <img src={require("./Images/f5.jpg")} className="b-radius w-25" alt="Not Found"></img>
                                     </div>
                                 </Col>
                                 <Col xs={12} className="py-4 shadow">
                                     <div className="d-flex justify-content-between align-items-center">
-                                        <img src={require("./Images/f6.jpg")} className="b-radius w-25"></img>
+                                        <img src={require("./Images/f6.jpg")} className="b-radius w-25" alt="Not Found"></img>
                                         <h1 className="h6 m-0 text-center">Content</h1>
                                     </div>
                                 </Col>
@@ -86,19 +86,19 @@ const Facilities = () => {
                             <Row className="justify-content-center">
                                 <Col xs={12} className="py-4 shadow">
                                     <div className="d-flex justify-content-between align-items-center">
-                                        <img src={require("./Images/fractured-bone.jpg")} className="b-radius w-25"></img>
+                                        <img src={require("./Images/fractured-bone.jpg")} className="b-radius w-25" alt="Not Found"></img>
                                         <h1 className="h6 m-0 text-center">Content</h1>
                                     </div>
                                 </Col>
                                 <Col xs={12} className="py-4 shadow">
                                     <div className="d-flex justify-content-between align-items-center">
                                         <h1 className="h6 m-0 text-center">Content</h1>
-                                        <img src={require("./Images/fractured-bone.jpg")} className="b-radius w-25"></img>
+                                        <img src={require("./Images/fractured-bone.jpg")} className="b-radius w-25" alt="Not Found"></img>
                                     </div>
                                 </Col>
                                 <Col xs={12} className="py-4 shadow">
                                     <div className="d-flex justify-content-between align-items-center">
-                                        <img src={require("./Images/fractured-bone.jpg")} className="b-radius w-25"></img>
+                                        <img src={require("./Images/fractured-bone.jpg")} className="b-radius w-25" alt="Not Found"></img>
                                         <h1 className="h6 m-0 text-center">Content</h1>
                                     </div>
                                 </Col>
